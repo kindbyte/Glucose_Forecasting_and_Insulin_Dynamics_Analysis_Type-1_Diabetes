@@ -38,10 +38,10 @@ Most predictions follow the actual CGM readings closely. The largest errors occu
 ![CGM Predictions Last 200 Steps](figures/cgm_predictions_last200.png)  
 
 - **Top 10 prediction errors** — highlights the moments the model struggled most  
-![Top Errors Highlighted](figures/top_errors.png)  
+![Top Errors Highlighted](figures/cgm_top10_errors.png)  
 
 - **Error distribution** — most predictions are very close  
-![Error Distribution](figures/error_distribution.png)  
+![Error Distribution](figures/eabs_error_distribution.png)  
 
 - **Feature importance** — recent CGM trends, short-term changes, and insulin doses were most influential  
 ![Feature Importance](figures/feature_importance.png)  
