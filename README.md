@@ -32,18 +32,23 @@ Most predictions follow the actual CGM readings closely. The largest errors occu
 
 ### Key Visuals
 - **Training & validation loss** — shows smooth learning  
+
 ![Training and Validation Loss](figures/loss_curve.png)  
 
 - **Predicted vs True CGM (last 200 steps)** — predictions track reality closely  
+
 ![CGM Predictions Last 200 Steps](figures/cgm_predictions_last200.png)  
 
 - **Top 10 prediction errors** — highlights the moments the model struggled most  
+
 ![Top Errors Highlighted](figures/cgm_top10_errors.png)
 
 - **Error distribution** — most predictions are very close  
+
 ![Error Distribution](figures/abs_error_distribution.png)  
 
 - **Feature importance** — recent CGM trends, short-term changes, and insulin doses were most influential  
+
 ![Feature Importance](figures/feature_importance.png)  
 
 I personally found it interesting that **small recent changes in CGM were more important than the absolute value itself**, which shows how sensitive blood glucose is to immediate past trends.
