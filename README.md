@@ -62,10 +62,6 @@ project/
 ├─ figures/                         # PNG plots for README  
 ├─ requirements.txt                 # Python dependencies  
 └─ README.md                        # This file  
-
-## Future Improvements
-- Train the model on multiple patients to improve generalization.  
-- Explore more advanced models like **LSTM** or **Transformers**.  
-- Integrate into a real-time monitoring system so patients get instant predictions.  
+ 
 
 ---
